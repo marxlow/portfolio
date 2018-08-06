@@ -136,6 +136,7 @@ gulp.task('serveprod', function () {
   connect.server({
     root: './',
     port: process.env.PORT || 3000,
+    host: '0.0.0.0',
     livereload: false
   });
 });
