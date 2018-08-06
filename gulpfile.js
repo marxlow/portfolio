@@ -7,6 +7,8 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var connect = require('gulp-connect');
 var pkg = require('./package.json');
+require('dotenv').config();
+
 
 // Set the banner content
 var banner = ['/*!\n',
