@@ -132,6 +132,7 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function () {
 
 // Deploy task
 gulp.task('serveprod', function () {
+  console.log('> Server is at: ', process.env.PORT);
   connect.server({
     root: './',
     port: process.env.PORT || 3000,
