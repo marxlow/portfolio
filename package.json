@@ -1,8 +1,8 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
+    "title": "Online Portfolio",
+    "name": "Online Portfolio",
     "version": "5.0.0",
-    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "description": "Marx Low's portfolio",
     "keywords": [
         "css",
         "sass",
@@ -14,7 +14,7 @@
     "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
-        "email": "feedback@startbootstrap.com"
+        "email": "marxlow94@gmail.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
@@ -28,6 +28,8 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.2.0",
         "bootstrap": "4.1.3",
+        "express": "^4.16.3",
+        "gulp-connect": "^5.5.0",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
         "simple-line-icons": "^2.4.1"
