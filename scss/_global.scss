@@ -87,3 +87,43 @@ h6 {
     font-weight: 800;
   }
 }
+
+// Image wrapper
+.circular-wrapper-big {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+}
+
+.circular-wrapper-mid {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.project-img-wrapper {
+  height: 500px;
+  width: 750px;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+}
+
+.skills-img {
+  height: auto;
+  padding: 1rem;
+}
+
+.primary-color {
+  color: $primary;
+}
+
+.tertiary-color {
+  color: $tertiary;
+}
+
+.text-left {
+  text-align: left;
+}
