@@ -12,14 +12,11 @@
         "template"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
-        "email": "marxlow94@gmail.com"
-    },
     "license": "MIT",
     "author": "Marx Low",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Marx Low (https://github.com/marxlow/)"
     ],
     "repository": {
         "type": "git",
@@ -40,6 +37,6 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.1",
         "gulp-uglify": "3.0.1",
-        "gulp-connect": "^5.5.0"
+        "gulp-connect": "^5.5.g0"
     }
 }
